@@ -303,7 +303,7 @@ const Home = () => {
                                     Our Process
                                 </span>
                             </motion.div>
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-900 mb-4 md:mb-6">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-navy-900 mb-4 md:mb-6">
                                 How We Do Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">Projects</span>
                             </h2>
                             <p className="text-slate-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">

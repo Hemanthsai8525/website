@@ -113,7 +113,7 @@ const Services = () => {
                     <FadeIn>
                         <div className="text-center mb-8 md:mb-12 lg:mb-16">
                             <div className="text-xs md:text-sm font-bold text-[#5F27CD] uppercase tracking-wider mb-3 md:mb-4">Our Process</div>
-                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-900 mb-4 md:mb-6">How We Do Our Projects</h2>
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-navy-900 mb-4 md:mb-6">How We Do Our Projects</h2>
                             <p className="text-slate-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
                                 A proven methodology that ensures quality, transparency, and timely delivery.
                             </p>
