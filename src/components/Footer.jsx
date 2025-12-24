@@ -66,8 +66,8 @@ const Footer = () => {
                     {/* Brand & Info */}
                     <div>
                         <Link to="/" className="mb-6 inline-block">
-                            <div className="bg-white p-3 rounded-lg">
-                                <Logo size={160} />
+                            <div className="bg-white p-2 md:p-3 rounded-lg">
+                                <Logo size={160} mobileSize={100} />
                             </div>
                         </Link>
                         <p className="text-slate-light mb-6 text-sm leading-relaxed">

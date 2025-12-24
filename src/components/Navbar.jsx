@@ -29,10 +29,10 @@ const Navbar = () => {
                 ? 'bg-white/95 backdrop-blur-md shadow-sm border-slate-200 py-2'
                 : 'bg-white border-transparent py-4'
         )}>
-            <div className="container mx-auto px-6 md:px-12 lg:px-24 flex justify-between items-center">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 flex justify-between items-center">
                 <Link to="/" className="hover:opacity-90 transition-opacity">
                     {/* Use light theme logo for white background */}
-                    <Logo size={200} theme="light" />
+                    <Logo size={200} mobileSize={120} theme="light" />
                 </Link>
 
                 {/* Desktop Menu */}

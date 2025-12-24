@@ -29,18 +29,18 @@ const About = () => {
                             <p className="text-xl text-white/90 leading-relaxed mb-8">
                                 We're a specialized technology partner focused on building scalable, secure, and high-performance solutions for businesses that value quality and long-term stability.
                             </p>
-                            <div className="flex flex-wrap gap-8 text-white/90">
+                            <div className="grid grid-cols-3 gap-4 md:gap-8 text-white/90">
                                 <div>
-                                    <div className="text-3xl font-bold text-white">10+</div>
-                                    <div className="text-sm">Years Experience</div>
+                                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">10+</div>
+                                    <div className="text-xs md:text-sm">Years Experience</div>
                                 </div>
                                 <div>
-                                    <div className="text-3xl font-bold text-white">50+</div>
-                                    <div className="text-sm">Projects Delivered</div>
+                                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">50+</div>
+                                    <div className="text-xs md:text-sm">Projects Delivered</div>
                                 </div>
                                 <div>
-                                    <div className="text-3xl font-bold text-white">98%</div>
-                                    <div className="text-sm">Client Satisfaction</div>
+                                    <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">98%</div>
+                                    <div className="text-xs md:text-sm">Client Satisfaction</div>
                                 </div>
                             </div>
                         </div>

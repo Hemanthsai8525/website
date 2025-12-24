@@ -13,20 +13,20 @@ const Services = () => {
             />
 
             {/* Hero Section */}
-            <section className="relative py-24 bg-gradient-to-br from-[#5F27CD] to-[#00D2D3] text-white overflow-hidden">
+            <section className="relative py-12 md:py-16 lg:py-24 bg-gradient-to-br from-[#5F27CD] to-[#00D2D3] text-white overflow-hidden">
                 <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-20 left-20 w-72 h-72 bg-white rounded-full blur-3xl"></div>
-                    <div className="absolute bottom-20 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+                    <div className="absolute top-10 md:top-20 left-10 md:left-20 w-48 md:w-72 h-48 md:h-72 bg-white rounded-full blur-3xl"></div>
+                    <div className="absolute bottom-10 md:bottom-20 right-10 md:right-20 w-64 md:w-96 h-64 md:h-96 bg-white rounded-full blur-3xl"></div>
                 </div>
 
-                <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 relative z-10">
                     <FadeIn>
                         <div className="text-center max-w-4xl mx-auto">
-                            <div className="text-sm font-bold uppercase tracking-wider mb-4 text-[#00D2D3]">What We Do</div>
-                            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                            <div className="text-xs md:text-sm font-bold uppercase tracking-wider mb-3 md:mb-4 text-[#00D2D3]">What We Do</div>
+                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
                                 Enterprise-Grade Technology Services
                             </h1>
-                            <p className="text-xl text-white/90 leading-relaxed">
+                            <p className="text-base md:text-lg lg:text-xl text-white/90 leading-relaxed px-4">
                                 From concept to deployment, we deliver scalable, secure, and high-performance solutions tailored to your business needs.
                             </p>
                         </div>
@@ -35,8 +35,8 @@ const Services = () => {
             </section>
 
             {/* Services Grid */}
-            <section className="py-24 bg-[#F9F9FB]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-[#F9F9FB]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <StaggerWrap className="grid grid-cols-1 lg:grid-cols-2 gap-12" staggerChildren={0.1}>
                         {services.map((service, index) => {
                             const Icon = service.icon;
