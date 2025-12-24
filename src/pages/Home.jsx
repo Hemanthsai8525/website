@@ -290,23 +290,23 @@ const Home = () => {
             </section>
 
             {/* HOW WE WORK - Our Development Process */}
-            <section className="py-24 bg-white">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-white">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
-                        <div className="text-center mb-16">
+                        <div className="text-center mb-8 md:mb-12 lg:mb-16">
                             <motion.div
-                                className="inline-block mb-4"
+                                className="inline-block mb-3 md:mb-4"
                                 animate={{ scale: [1, 1.05, 1] }}
                                 transition={{ duration: 2, repeat: Infinity }}
                             >
-                                <span className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3] uppercase tracking-wider">
-                                    How We Work
+                                <span className="text-xs md:text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3] uppercase tracking-wider">
+                                    Our Process
                                 </span>
                             </motion.div>
-                            <h2 className="text-4xl md:text-6xl font-bold text-navy-900 mb-6">
-                                Our Development <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">Process</span>
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-900 mb-4 md:mb-6">
+                                How We Do Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">Projects</span>
                             </h2>
-                            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+                            <p className="text-slate-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
                                 A proven 4-step methodology that ensures quality, transparency, and timely delivery for every project
                             </p>
                         </div>

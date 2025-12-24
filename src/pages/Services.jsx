@@ -108,13 +108,13 @@ const Services = () => {
             </section>
 
             {/* Development Process */}
-            <section className="py-24 bg-white">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-white">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
-                        <div className="text-center mb-16">
-                            <div className="text-sm font-bold text-[#5F27CD] uppercase tracking-wider mb-3">How We Work</div>
-                            <h2 className="text-4xl md:text-5xl font-bold text-navy-900 mb-4">Our Development Process</h2>
-                            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+                        <div className="text-center mb-8 md:mb-12 lg:mb-16">
+                            <div className="text-xs md:text-sm font-bold text-[#5F27CD] uppercase tracking-wider mb-3 md:mb-4">Our Process</div>
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-900 mb-4 md:mb-6">How We Do Our Projects</h2>
+                            <p className="text-slate-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
                                 A proven methodology that ensures quality, transparency, and timely delivery.
                             </p>
                         </div>

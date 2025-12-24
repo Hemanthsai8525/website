@@ -28,20 +28,20 @@ const Technologies = () => {
             />
 
             {/* Hero Section */}
-            <section className="relative py-24 bg-gradient-to-br from-[#5F27CD] to-[#00D2D3] text-white overflow-hidden">
+            <section className="relative py-12 md:py-16 lg:py-24 bg-gradient-to-br from-[#5F27CD] to-[#00D2D3] text-white overflow-hidden">
                 <div className="absolute inset-0 opacity-10">
-                    <div className="absolute top-20 left-20 w-72 h-72 bg-white rounded-full blur-3xl"></div>
-                    <div className="absolute bottom-20 right-20 w-96 h-96 bg-white rounded-full blur-3xl"></div>
+                    <div className="absolute top-10 md:top-20 left-10 md:left-20 w-48 md:w-72 h-48 md:h-72 bg-white rounded-full blur-3xl"></div>
+                    <div className="absolute bottom-10 md:bottom-20 right-10 md:right-20 w-64 md:w-96 h-64 md:h-96 bg-white rounded-full blur-3xl"></div>
                 </div>
 
-                <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24 relative z-10">
                     <FadeIn>
                         <div className="text-center max-w-4xl mx-auto">
-                            <div className="text-sm font-bold uppercase tracking-wider mb-4 text-[#00D2D3]">Our Tech Stack</div>
-                            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                            <div className="text-xs md:text-sm font-bold uppercase tracking-wider mb-3 md:mb-4 text-[#00D2D3]">Our Tech Stack</div>
+                            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 leading-tight">
                                 Cutting-Edge Technologies for Modern Solutions
                             </h1>
-                            <p className="text-xl text-white/90 leading-relaxed">
+                            <p className="text-base md:text-lg lg:text-xl text-white/90 leading-relaxed px-4">
                                 We leverage the best tools and frameworks to build scalable, secure, and high-performance applications. Vendor-agnostic approach ensures the right technology for your specific needs.
                             </p>
                         </div>
@@ -50,14 +50,14 @@ const Technologies = () => {
             </section>
 
             {/* Category Filter */}
-            <section className="py-12 bg-white border-b border-slate-200 sticky top-[120px] z-30">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
-                    <div className="flex flex-wrap justify-center gap-3">
+            <section className="py-6 md:py-8 bg-white border-b border-slate-200 sticky top-[70px] md:top-[80px] z-30 transition-all">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
+                    <div className="flex flex-wrap justify-center gap-2 md:gap-3">
                         {categories.map((category) => (
                             <button
                                 key={category.id}
                                 onClick={() => setActiveCategory(category.id)}
-                                className={`px-6 py-2.5 rounded-full font-medium transition-all ${activeCategory === category.id
+                                className={`px-4 md:px-6 py-2 md:py-2.5 text-sm md:text-base rounded-full font-medium transition-all ${activeCategory === category.id
                                     ? 'bg-[#5F27CD] text-white shadow-lg scale-105'
                                     : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                                     }`}
@@ -70,8 +70,8 @@ const Technologies = () => {
             </section>
 
             {/* Technologies Grid */}
-            <section className="py-24 bg-[#F9F9FB]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-[#F9F9FB]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     {filteredTechnologies.length > 0 ? (
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {filteredTechnologies.map((tech) => {
@@ -132,16 +132,16 @@ const Technologies = () => {
             </section>
 
             {/* Why Our Stack Section */}
-            <section className="py-24 bg-white">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-white">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
-                        <div className="text-center mb-16">
-                            <div className="text-sm font-bold text-[#5F27CD] uppercase tracking-wider mb-3">Our Approach</div>
-                            <h2 className="text-4xl md:text-5xl font-bold text-navy-900 mb-4">Why Our Technology Stack?</h2>
+                        <div className="text-center mb-10 md:mb-16">
+                            <div className="text-xs md:text-sm font-bold text-[#5F27CD] uppercase tracking-wider mb-2 md:mb-3">Our Approach</div>
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-navy-900 mb-4">Why Our Technology Stack?</h2>
                         </div>
                     </FadeIn>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
                         {[
                             {
                                 title: 'Vendor Agnostic',
@@ -187,17 +187,17 @@ const Technologies = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
                         <div className="text-center text-white max-w-3xl mx-auto">
-                            <h2 className="text-4xl font-bold mb-6">Ready to Build Something Amazing?</h2>
-                            <p className="text-xl text-white/90 mb-8">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">Ready to Build Something Amazing?</h2>
+                            <p className="text-base md:text-lg lg:text-xl text-white/90 mb-6 md:mb-8 px-4">
                                 Let's discuss which technologies are the perfect fit for your project.
                             </p>
                             <a
                                 href="/contact"
-                                className="inline-block bg-white text-[#5F27CD] px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
+                                className="inline-block bg-white text-[#5F27CD] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
                             >
                                 Start a Conversation
                             </a>
