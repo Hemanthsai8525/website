@@ -108,20 +108,20 @@ const Portfolio = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
                         <div className="text-center text-white max-w-3xl mx-auto">
-                            <h2 className="text-4xl font-bold mb-6">Let's Build Your Success Story</h2>
-                            <p className="text-xl text-white/90 mb-8">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">Let's Build Your Success Story</h2>
+                            <p className="text-base md:text-lg lg:text-xl text-white/90 mb-6 md:mb-8 px-4">
                                 Ready to transform your business with technology? Let's discuss your project.
                             </p>
-                            <a
-                                href="/contact"
-                                className="inline-block bg-white text-[#5F27CD] px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
+                            <Link
+                                to="/contact"
+                                className="inline-block bg-white text-[#5F27CD] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
                             >
                                 Start a Project
-                            </a>
+                            </Link>
                         </div>
                     </FadeIn>
                 </div>

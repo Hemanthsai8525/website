@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import SEO from '../components/SEO';
 import { FadeIn, StaggerWrap, StaggerItem } from '../components/Animations';
@@ -195,12 +196,12 @@ const Technologies = () => {
                             <p className="text-base md:text-lg lg:text-xl text-white/90 mb-6 md:mb-8 px-4">
                                 Let's discuss which technologies are the perfect fit for your project.
                             </p>
-                            <a
-                                href="/contact"
+                            <Link
+                                to="/contact"
                                 className="inline-block bg-white text-[#5F27CD] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
                             >
                                 Start a Conversation
-                            </a>
+                            </Link>
                         </div>
                     </FadeIn>
                 </div>

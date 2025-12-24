@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import { CheckCircle, ArrowRight } from 'lucide-react';
 import { FadeIn, StaggerWrap, StaggerItem } from '../components/Animations';
@@ -241,27 +242,27 @@ const Services = () => {
             </section>
 
             {/* CTA Section */}
-            <section className="py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
                         <div className="text-center text-white max-w-3xl mx-auto">
-                            <h2 className="text-4xl font-bold mb-6">Ready to Get Started?</h2>
-                            <p className="text-xl text-white/90 mb-8">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6">Ready to Get Started?</h2>
+                            <p className="text-base md:text-lg lg:text-xl text-white/90 mb-6 md:mb-8 px-4">
                                 Let's discuss your project and find the perfect solution for your needs.
                             </p>
-                            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                                <a
-                                    href="/contact"
-                                    className="inline-flex items-center justify-center gap-2 bg-white text-[#5F27CD] px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
+                            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+                                <Link
+                                    to="/contact"
+                                    className="inline-flex items-center justify-center gap-2 bg-white text-[#5F27CD] px-6 md:px-8 py-3 md:py-4 text-sm md:text-base rounded-lg font-semibold hover:bg-slate-100 transition-colors shadow-xl"
                                 >
-                                    Schedule Consultation <ArrowRight size={20} />
-                                </a>
-                                <a
-                                    href="/portfolio"
-                                    className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-[#5F27CD] transition-colors"
+                                    Schedule Consultation <ArrowRight size={18} className="md:w-5 md:h-5" />
+                                </Link>
+                                <Link
+                                    to="/portfolio"
+                                    className="inline-flex items-center justify-center gap-2 bg-transparent border-2 border-white text-white px-6 md:px-8 py-3 md:py-4 text-sm md:text-base rounded-lg font-semibold hover:bg-white hover:text-[#5F27CD] transition-colors"
                                 >
                                     View Our Work
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </FadeIn>
