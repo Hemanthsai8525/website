@@ -70,9 +70,9 @@ const Home = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight"
+                        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-6 md:mb-8 leading-tight"
                     >
-                        We transform ideas <br />into <span className="text-[#00D2D3]">technology</span>
+                        We transform ideas <br className="hidden sm:block" />into <span className="text-[#00D2D3]">technology</span>
                     </motion.h1>
 
                     {/* Dual CTAs */}
@@ -80,19 +80,19 @@ const Home = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.5 }}
-                        className="flex flex-col sm:flex-row gap-4 justify-center items-center"
+                        className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center items-center"
                     >
                         <Link
                             to="/about"
-                            className="bg-white text-[#5F27CD] px-8 py-4 rounded-lg font-semibold hover:bg-[#00D2D3] hover:text-white transition-all duration-300 shadow-xl flex items-center gap-2"
+                            className="w-full sm:w-auto bg-white text-[#5F27CD] px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-[#00D2D3] hover:text-white transition-all duration-300 shadow-xl flex items-center justify-center gap-2 text-sm md:text-base"
                         >
-                            Discover More <ArrowRight size={20} />
+                            Discover More <ArrowRight size={18} className="md:w-5 md:h-5" />
                         </Link>
                         <Link
                             to="/contact"
-                            className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-[#5F27CD] transition-all duration-300 flex items-center gap-2"
+                            className="w-full sm:w-auto bg-transparent border-2 border-white text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold hover:bg-white hover:text-[#5F27CD] transition-all duration-300 flex items-center justify-center gap-2 text-sm md:text-base"
                         >
-                            Contact With Us <ArrowRight size={20} />
+                            Contact With Us <ArrowRight size={18} className="md:w-5 md:h-5" />
                         </Link>
                     </motion.div>
                 </div>
@@ -163,23 +163,23 @@ const Home = () => {
             </section>
 
             {/* OUR BEST SERVICES GRID - Premium Design */}
-            <section className="py-24 bg-gradient-to-b from-white to-[#F9F9FB]">
-                <div className="container mx-auto px-6 md:px-12 lg:px-24">
+            <section className="py-12 md:py-16 lg:py-24 bg-gradient-to-b from-white to-[#F9F9FB]">
+                <div className="container mx-auto px-4 sm:px-6 md:px-12 lg:px-24">
                     <FadeIn>
-                        <div className="text-center mb-16">
+                        <div className="text-center mb-8 md:mb-12 lg:mb-16">
                             <motion.div
-                                className="inline-block mb-4"
+                                className="inline-block mb-3 md:mb-4"
                                 animate={{ scale: [1, 1.05, 1] }}
                                 transition={{ duration: 2, repeat: Infinity }}
                             >
-                                <span className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3] uppercase tracking-wider">
+                                <span className="text-xs md:text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3] uppercase tracking-wider">
                                     What We Offer
                                 </span>
                             </motion.div>
-                            <h2 className="text-4xl md:text-6xl font-bold text-navy-900 mb-6">
+                            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-navy-900 mb-4 md:mb-6">
                                 Our Best <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5F27CD] to-[#00D2D3]">Services</span>
                             </h2>
-                            <p className="text-slate-600 text-lg max-w-2xl mx-auto">
+                            <p className="text-slate-600 text-sm md:text-base lg:text-lg max-w-2xl mx-auto px-4">
                                 Enterprise-grade solutions powered by cutting-edge technology and delivered by expert teams
                             </p>
                         </div>
@@ -237,20 +237,20 @@ const Home = () => {
                                                 </div>
 
                                                 {/* Content */}
-                                                <div className="p-6 flex-1 flex flex-col">
-                                                    <h3 className="text-2xl font-bold text-navy-900 mb-3 group-hover:text-[#5F27CD] transition-colors">
+                                                <div className="p-4 md:p-6 flex-1 flex flex-col">
+                                                    <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-navy-900 mb-2 md:mb-3 group-hover:text-[#5F27CD] transition-colors">
                                                         {service.title}
                                                     </h3>
-                                                    <p className="text-slate-600 leading-relaxed mb-4 flex-1">
+                                                    <p className="text-sm md:text-base text-slate-600 leading-relaxed mb-3 md:mb-4 flex-1">
                                                         {service.description}
                                                     </p>
 
                                                     {/* Tech Tags */}
-                                                    <div className="flex flex-wrap gap-2 mb-4">
+                                                    <div className="flex flex-wrap gap-1.5 md:gap-2 mb-3 md:mb-4">
                                                         {service.tech.slice(0, 3).map((tech, i) => (
                                                             <span
                                                                 key={i}
-                                                                className="px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full"
+                                                                className="px-2 md:px-3 py-1 bg-slate-100 text-slate-600 text-xs font-medium rounded-full"
                                                             >
                                                                 {tech}
                                                             </span>
@@ -258,9 +258,9 @@ const Home = () => {
                                                     </div>
 
                                                     {/* Learn More */}
-                                                    <div className="flex items-center gap-2 text-[#5F27CD] font-semibold group-hover:gap-3 transition-all">
+                                                    <div className="flex items-center gap-2 text-[#5F27CD] font-semibold group-hover:gap-3 transition-all text-sm md:text-base">
                                                         <span>Learn More</span>
-                                                        <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                                        <ArrowRight size={16} className="md:w-[18px] md:h-[18px] group-hover:translate-x-1 transition-transform" />
                                                     </div>
                                                 </div>
 
