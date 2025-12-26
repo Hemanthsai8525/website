@@ -129,7 +129,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold text-white mb-6">Company</h4>
                         <ul className="space-y-3">
-                            {navigation.slice(0, 5).map((item) => (
+                            {navigation.slice(0, 6).map((item) => (
                                 <li key={item.name}>
                                     <Link to={item.href} className="text-slate-light hover:text-[#00D2D3] text-sm transition-colors">
                                         {item.name}
@@ -189,9 +189,6 @@ const Footer = () => {
                     <div className="flex gap-6 mt-4 md:mt-0 items-center">
                         <Link to="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
                         <Link to="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-                        <div className="flex items-center gap-1 text-green-500/80 text-xs border border-green-500/30 px-2 py-1 rounded bg-green-500/10">
-                            <ShieldCheck size={12} /> SSL Secured
-                        </div>
                     </div>
                 </div>
             </div>
