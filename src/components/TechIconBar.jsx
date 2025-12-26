@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Monitor, Watch, Tv, Smartphone, Shield, Network } from 'lucide-react';
+import { Monitor, Watch, Smartphone, Shield, Network } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const TechIconBar = () => {
@@ -18,12 +18,7 @@ const TechIconBar = () => {
             color: 'from-[#00D2D3] to-[#06B6D4]',
             description: 'Building smart wearable solutions that integrate seamlessly with IoT ecosystems and provide real-time data insights.'
         },
-        {
-            icon: Tv,
-            label: 'TV',
-            color: 'from-[#8B5CF6] to-[#A78BFA]',
-            description: 'Developing interactive TV applications and streaming platforms with advanced content delivery capabilities.'
-        },
+
         {
             icon: Smartphone,
             label: 'Android',
@@ -47,7 +42,7 @@ const TechIconBar = () => {
     return (
         <div>
             {/* Icon Bar with Gradient Cards */}
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 mb-16">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 mb-16">
                 {techCategories.map((tech, index) => {
                     const Icon = tech.icon;
                     const isActive = activeIndex === index;
