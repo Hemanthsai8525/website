@@ -9,8 +9,8 @@ const About = () => {
     return (
         <>
             <SEO
-                title="About Us | Offkettech"
-                description="Learn about Offkettech's mission, values, and commitment to delivering enterprise-grade technology solutions."
+                title="About Us"
+                description="Learn about Offket Tech's mission, values, and commitment to delivering enterprise-grade technology solutions."
             />
 
             {/* Hero Section */}
@@ -23,7 +23,7 @@ const About = () => {
                 <div className="container mx-auto px-6 md:px-12 lg:px-24 relative z-10">
                     <FadeIn>
                         <div className="max-w-4xl">
-                            <div className="text-sm font-bold uppercase tracking-wider mb-4 text-[#00D2D3]">About Offkettech</div>
+                            <div className="text-sm font-bold uppercase tracking-wider mb-4 text-[#00D2D3]">About Offket Tech</div>
                             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                                 Engineering Excellence, Delivered with Integrity
                             </h1>

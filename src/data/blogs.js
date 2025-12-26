@@ -1,12 +1,12 @@
 export const blogPosts = {
-    'ai-machine-learning-2024': {
-        title: 'AI and Machine Learning: Transforming Startup Operations in 2024',
-        author: 'Tech Insights Team',
-        date: '15 December, 2024',
-        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1600',
-        excerpt: 'Artificial Intelligence and Machine Learning have become indispensable tools for startups. Discover how these technologies are driving efficiency and innovation.',
-        slug: 'ai-machine-learning-2024', // added slug for convenience
-        content: `
+  'ai-machine-learning-2024': {
+    title: 'AI and Machine Learning: Transforming Startup Operations in 2024',
+    author: 'Tech Insights Team',
+    date: '15 December, 2024',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1600',
+    excerpt: 'Artificial Intelligence and Machine Learning have become indispensable tools for startups. Discover how these technologies are driving efficiency and innovation.',
+    slug: 'ai-machine-learning-2024', // added slug for convenience
+    content: `
       <h2>The AI Revolution in Startups</h2>
       <p>In 2024, Artificial Intelligence and Machine Learning have become indispensable tools for startups looking to scale efficiently and compete in the global market. With over $100 billion invested globally in AI this year, the technology has moved from experimental to essential.</p>
 
@@ -26,21 +26,21 @@ export const blogPosts = {
         <li>Start with a specific problem that AI can solve</li>
         <li>Use pre-trained models and APIs to reduce development time</li>
         <li>Invest in quality data collection and management</li>
-        <li>Partner with experienced AI development firms like Offkettech</li>
+        <li>Partner with experienced AI development firms like Offket Tech</li>
       </ul>
 
       <h3>The Future Outlook</h3>
       <p>As AI technology continues to evolve, startups that embrace these tools early will have a significant competitive advantage. The key is to implement AI strategically, focusing on areas where it can deliver the most value to your business and customers.</p>
     `
-    },
-    'cloud-computing-strategies': {
-        title: 'Cloud Computing Strategies for Scalable Startup Growth',
-        author: 'DevOps Weekly',
-        date: '10 December, 2024',
-        image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1600',
-        excerpt: 'Cloud computing revolutionizes how startups build infrastructure. Learn about serverless computing, Kubernetes, and cost optimization strategies.',
-        slug: 'cloud-computing-strategies', // added slug for convenience
-        content: `
+  },
+  'cloud-computing-strategies': {
+    title: 'Cloud Computing Strategies for Scalable Startup Growth',
+    author: 'DevOps Weekly',
+    date: '10 December, 2024',
+    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1600',
+    excerpt: 'Cloud computing revolutionizes how startups build infrastructure. Learn about serverless computing, Kubernetes, and cost optimization strategies.',
+    slug: 'cloud-computing-strategies', // added slug for convenience
+    content: `
       <h2>Why Cloud Computing is Essential for Startups</h2>
       <p>Cloud computing has revolutionized how startups build and scale their infrastructure. Instead of massive upfront investments in hardware, startups can now access enterprise-grade computing resources on-demand, paying only for what they use.</p>
 
@@ -71,17 +71,17 @@ export const blogPosts = {
         <li>Use cloud-native security tools and monitoring</li>
       </ul>
 
-      <p>At Offkettech, we help startups design and implement cloud architectures that are secure, scalable, and cost-effective from day one.</p>
+      <p>At Offket Tech, we help startups design and implement cloud architectures that are secure, scalable, and cost-effective from day one.</p>
     `
-    },
-    'software-development-best-practices': {
-        title: 'Software Development Best Practices: From MVP to Enterprise Scale',
-        author: 'Engineering Digest',
-        date: '5 December, 2024',
-        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1600',
-        excerpt: 'From MVP to enterprise scale, adherence to best practices is key. Explore Agile methodology, DevSecOps, and code quality standards.',
-        slug: 'software-development-best-practices', // added slug for convenience
-        content: `
+  },
+  'software-development-best-practices': {
+    title: 'Software Development Best Practices: From MVP to Enterprise Scale',
+    author: 'Engineering Digest',
+    date: '5 December, 2024',
+    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1600',
+    excerpt: 'From MVP to enterprise scale, adherence to best practices is key. Explore Agile methodology, DevSecOps, and code quality standards.',
+    slug: 'software-development-best-practices', // added slug for convenience
+    content: `
       <h2>Building Scalable Software from the Start</h2>
       <p>The journey from a Minimum Viable Product (MVP) to an enterprise-scale application requires careful planning and adherence to proven development practices. Here's what successful startups are doing right.</p>
 
@@ -126,7 +126,7 @@ export const blogPosts = {
         <li>Use message queues for asynchronous processing</li>
       </ul>
 
-      <p>Offkettech specializes in building software that scales with your business, from MVP to millions of users.</p>
+      <p>Offket Tech specializes in building software that scales with your business, from MVP to millions of users.</p>
     `
-    }
+  }
 };

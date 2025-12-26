@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <>
             <SEO
-                title="Transform Ideas into Technology | Offkettech"
+                title="Transform Ideas into Technology"
                 description="Enterprise IT Solutions: Web Development, AI/ML, Cloud Infrastructure, and Cybersecurity services from Hyderabad, India."
             />
 
@@ -63,7 +63,7 @@ const Home = () => {
                         transition={{ duration: 0.6 }}
                         className="text-sm font-bold uppercase tracking-widest mb-4 text-[#00D2D3]"
                     >
-                        WELCOME TO OFFKETTECH
+                        WELCOME TO OFFKET TECH
                     </motion.div>
 
                     <motion.h1
@@ -124,7 +124,7 @@ const Home = () => {
                                 Empowering Digital Transformation with Smart Software & Scalable Tech
                             </h2>
                             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                                At Offkettech, we craft powerful digital solutions tailored for the modern world. From building intuitive mobile apps and dynamic websites to deploying AI-driven platforms and secure cloud infrastructure — we help businesses evolve, scale, and lead through technology.
+                                At Offket Tech, we craft powerful digital solutions tailored for the modern world. From building intuitive mobile apps and dynamic websites to deploying AI-driven platforms and secure cloud infrastructure — we help businesses evolve, scale, and lead through technology.
                             </p>
 
                             {/* Checklist - Exact from Video */}

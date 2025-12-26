@@ -198,7 +198,7 @@ export const projects = [
 ];
 
 export const companyDetails = {
-    name: 'Offket',
+    name: 'Offket Tech',
     legalName: 'OFFKET TECH IT SOLUTIONS PVT. LTD.',
     tagline: 'Engineering Scalable Digital Solutions',
     description: 'Offket Tech is an independent IT services firm specializing in software engineering, digital transformation, and cloud infrastructure.',

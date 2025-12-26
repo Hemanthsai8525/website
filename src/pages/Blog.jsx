@@ -8,7 +8,7 @@ const Blog = () => {
     return (
         <>
             <SEO
-                title="Blog | Offket Tech"
+                title="Blog"
                 description="Insights, updates, and tech trends from the Offket Tech team."
             />
 

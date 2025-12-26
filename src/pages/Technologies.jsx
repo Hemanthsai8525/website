@@ -24,7 +24,7 @@ const Technologies = () => {
     return (
         <>
             <SEO
-                title="Technology Stack | Offkettech"
+                title="Technology Stack"
                 description="Our expertise covers the full modern stack: React, Node.js, Python, AWS, Kubernetes, and more. Vendor-agnostic approach."
             />
 

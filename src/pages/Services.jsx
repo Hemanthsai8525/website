@@ -9,7 +9,7 @@ const Services = () => {
     return (
         <>
             <SEO
-                title="Services | Offkettech"
+                title="Services"
                 description="Comprehensive IT services including Web & Mobile Development, AI/ML, Cloud & DevOps, Cybersecurity, and UI/UX Design."
             />
 

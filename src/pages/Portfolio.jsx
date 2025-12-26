@@ -9,7 +9,7 @@ const Portfolio = () => {
     return (
         <>
             <SEO
-                title="Portfolio | Offkettech"
+                title="Portfolio"
                 description="Explore our portfolio of successful projects across FinTech, HealthTech, E-commerce, and Enterprise solutions."
             />
 

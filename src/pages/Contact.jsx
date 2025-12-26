@@ -9,8 +9,8 @@ const Contact = () => {
     return (
         <>
             <SEO
-                title="Contact Us | Offkettech"
-                description="Get in touch with Offkettech. We're here to help with your technology needs."
+                title="Contact Us"
+                description="Get in touch with Offket Tech. We're here to help with your technology needs."
             />
 
             {/* Hero Section */}
@@ -153,7 +153,7 @@ const Contact = () => {
                                 allowFullScreen=""
                                 loading="lazy"
                                 referrerPolicy="no-referrer-when-downgrade"
-                                title="Offkettech Office Location - Pranava Business Park, Kondapur"
+                                title="Offket Tech Office Location - Pranava Business Park, Kondapur"
                             ></iframe>
                         </div>
                     </FadeIn>

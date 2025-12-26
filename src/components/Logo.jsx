@@ -9,7 +9,7 @@ const Logo = ({ size = 140, mobileSize, className = '' }) => {
         <div className={`flex items-center gap-2 ${className}`}>
             <img
                 src="/offket-logo.png"
-                alt="Offket IT Solutions"
+                alt={companyDetails.name}
                 className="h-auto"
                 style={{
                     width: `${mobileSizeValue}px`,
