@@ -14,7 +14,7 @@ export const PrivacyPolicy = () => {
 
                         <h3 className="text-white">1. Introduction</h3>
                         <p className="text-slate-light">
-                            Offket Tech ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website (regardless of where you visit it from) and tell you about your privacy rights and how the law protects you.
+                            Offket IT Solutions Pvt. Ltd. ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website (regardless of where you visit it from) and tell you about your privacy rights and how the law protects you.
                         </p>
 
                         <h3 className="text-white mt-8">2. Information We Collect</h3>
@@ -60,7 +60,7 @@ export const TermsConditions = () => {
 
                         <h3 className="text-white">1. Agreement to Terms</h3>
                         <p className="text-slate-light">
-                            These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Offket Tech ("we", "us", or "our"), concerning your access to and use of the Offket Tech website.
+                            These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you") and Offket IT Solutions Pvt. Ltd. ("we", "us", or "our"), concerning your access to and use of the Offket IT Solutions website.
                         </p>
 
                         <h3 className="text-white mt-8">2. Intellectual Property Rights</h3>
@@ -75,7 +75,7 @@ export const TermsConditions = () => {
 
                         <h3 className="text-white mt-8">4. Governing Law</h3>
                         <p className="text-slate-light">
-                            These Terms shall be governed by and defined following the laws of India. Offket Tech and yourself irrevocably consent that the courts of Hyderabad, India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
+                            These Terms shall be governed by and defined following the laws of India. Offket IT Solutions Pvt. Ltd. and yourself irrevocably consent that the courts of Hyderabad, India shall have exclusive jurisdiction to resolve any dispute which may arise in connection with these terms.
                         </p>
                     </div>
                 </div>

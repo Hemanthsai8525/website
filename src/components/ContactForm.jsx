@@ -31,7 +31,7 @@ const ContactForm = () => {
                 body: JSON.stringify({
                     access_key: 'YOUR_WEB3FORMS_ACCESS_KEY', // Replace with your key from web3forms.com
                     subject: `New Contact Form Submission from ${formData.name}`,
-                    from_name: 'Offket Tech Website',
+                    from_name: 'Offket IT Solutions Website',
                     ...formData
                 })
             });

@@ -63,7 +63,7 @@ const Home = () => {
                         transition={{ duration: 0.6 }}
                         className="text-sm font-bold uppercase tracking-widest mb-4 text-[#00D2D3]"
                     >
-                        WELCOME TO OFFKET TECH
+                        WELCOME TO OFFKET IT SOLUTIONS
                     </motion.div>
 
                     <motion.h1
@@ -124,7 +124,7 @@ const Home = () => {
                                 Empowering Digital Transformation with Smart Software & Scalable Tech
                             </h2>
                             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                                At Offket Tech, we craft powerful digital solutions tailored for the modern world. From building intuitive mobile apps and dynamic websites to deploying AI-driven platforms and secure cloud infrastructure — we help businesses evolve, scale, and lead through technology.
+                                At Offket IT Solutions, we craft powerful digital solutions tailored for the modern world. From building intuitive mobile apps and dynamic websites to deploying AI-driven platforms and secure cloud infrastructure — we help businesses evolve, scale, and lead through technology.
                             </p>
 
                             {/* Checklist - Exact from Video */}

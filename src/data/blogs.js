@@ -26,7 +26,7 @@ export const blogPosts = {
         <li>Start with a specific problem that AI can solve</li>
         <li>Use pre-trained models and APIs to reduce development time</li>
         <li>Invest in quality data collection and management</li>
-        <li>Partner with experienced AI development firms like Offket Tech</li>
+        <li>Partner with experienced AI development firms like Offket IT Solutions</li>
       </ul>
 
       <h3>The Future Outlook</h3>
@@ -71,7 +71,7 @@ export const blogPosts = {
         <li>Use cloud-native security tools and monitoring</li>
       </ul>
 
-      <p>At Offket Tech, we help startups design and implement cloud architectures that are secure, scalable, and cost-effective from day one.</p>
+      <p>At Offket IT Solutions, we help startups design and implement cloud architectures that are secure, scalable, and cost-effective from day one.</p>
     `
   },
   'software-development-best-practices': {
@@ -126,7 +126,7 @@ export const blogPosts = {
         <li>Use message queues for asynchronous processing</li>
       </ul>
 
-      <p>Offket Tech specializes in building software that scales with your business, from MVP to millions of users.</p>
+      <p>Offket IT Solutions specializes in building software that scales with your business, from MVP to millions of users.</p>
     `
   }
 };

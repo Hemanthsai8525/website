@@ -8,7 +8,7 @@ const Chatbot = () => {
     const [messages, setMessages] = useState([
         {
             type: 'bot',
-            text: 'Hello! 👋 I\'m the Offket Tech AI Assistant. I can tell you everything about our company, services, technologies, and more. How can I help you today?',
+            text: 'Hello! 👋 I\'m the Offket IT Solutions AI Assistant. I can tell you everything about our company, services, technologies, and more. How can I help you today?',
             time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         }
     ]);
@@ -29,7 +29,7 @@ const Chatbot = () => {
         // Company Info
         company: {
             keywords: ['company', 'about', 'who are you', 'offkettech', 'what do you do', 'tell me about'],
-            response: `Offket Tech (${companyDetails.legalName}) is a professional IT services company based in ${companyDetails.address}. Founded in ${companyDetails.founded}, we specialize in:\n\n• Web & Mobile Development\n• AI & Machine Learning\n• Cloud & DevOps\n• Cybersecurity\n• UI/UX Design\n\nWe follow a ${companyDetails.operatingModel} model and are strictly vendor-agnostic, choosing the right technology for each project.`
+            response: `Offket IT Solutions (${companyDetails.legalName}) is a professional IT services company based in ${companyDetails.address}. Founded in ${companyDetails.founded}, we specialize in:\n\n• Web & Mobile Development\n• AI & Machine Learning\n• Cloud & DevOps\n• Cybersecurity\n• UI/UX Design\n\nWe follow a ${companyDetails.operatingModel} model and are strictly vendor-agnostic, choosing the right technology for each project.`
         },
 
         // Services
@@ -107,7 +107,7 @@ const Chatbot = () => {
         // Why Choose Us
         why: {
             keywords: ['why choose', 'why offkettech', 'what makes you different', 'advantages', 'benefits'],
-            response: `Why Choose Offket Tech?\n\n⭐ **Our Differentiators:**\n\n1. **Vendor Agnostic**\n   • Best tool for the job\n   • No bias or lock-in\n\n2. **Transparent Communication**\n   • Daily updates\n   • Full project visibility\n   • No hidden costs\n\n3. **Quality First**\n   • 80%+ test coverage\n   • Code reviews mandatory\n   • Security built-in\n\n4. **Scalable Solutions**\n   • Built for growth\n   • Performance optimized\n   • Future-proof architecture\n\n5. **Post-Launch Support**\n   • 24/7 monitoring\n   • Quick bug fixes\n   • Feature enhancements\n\n6. **Competitive Pricing**\n   • Flexible models\n   • No upfront fees\n   • ROI focused\n\nLet's build something amazing together!`
+            response: `Why Choose Offket IT Solutions?\n\n⭐ **Our Differentiators:**\n\n1. **Vendor Agnostic**\n   • Best tool for the job\n   • No bias or lock-in\n\n2. **Transparent Communication**\n   • Daily updates\n   • Full project visibility\n   • No hidden costs\n\n3. **Quality First**\n   • 80%+ test coverage\n   • Code reviews mandatory\n   • Security built-in\n\n4. **Scalable Solutions**\n   • Built for growth\n   • Performance optimized\n   • Future-proof architecture\n\n5. **Post-Launch Support**\n   • 24/7 monitoring\n   • Quick bug fixes\n   • Feature enhancements\n\n6. **Competitive Pricing**\n   • Flexible models\n   • No upfront fees\n   • ROI focused\n\nLet's build something amazing together!`
         },
 
         // Industries
@@ -132,7 +132,7 @@ const Chatbot = () => {
     };
 
     const quickReplies = [
-        { text: '🏢 About Company', query: 'Tell me about Offket Tech' },
+        { text: '🏢 About Company', query: 'Tell me about Offket IT Solutions' },
         { text: '⚙️ Services', query: 'What services do you offer?' },
         { text: '💰 Pricing', query: 'How much does it cost?' },
         { text: '📞 Contact', query: 'How can I contact you?' },
@@ -205,7 +205,7 @@ const Chatbot = () => {
                                 <Bot size={20} />
                             </div>
                             <div className="flex-1">
-                                <h3 className="font-bold">Offket Tech AI Assistant</h3>
+                                <h3 className="font-bold">Offket IT Solutions AI Assistant</h3>
                                 <p className="text-xs text-white/80 flex items-center gap-1">
                                     <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
                                     Online • Ask me anything!

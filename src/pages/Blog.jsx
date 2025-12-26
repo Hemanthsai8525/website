@@ -9,7 +9,7 @@ const Blog = () => {
         <>
             <SEO
                 title="Blog"
-                description="Insights, updates, and tech trends from the Offket Tech team."
+                description="Insights, updates, and tech trends from the Offket IT Solutions team."
             />
 
             <PageHeader

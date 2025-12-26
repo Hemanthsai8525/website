@@ -198,10 +198,10 @@ export const projects = [
 ];
 
 export const companyDetails = {
-    name: 'Offket Tech',
-    legalName: 'OFFKET TECH IT SOLUTIONS PVT. LTD.',
+    name: 'Offket IT Solutions',
+    legalName: 'Offket IT Solutions Pvt. Ltd.',
     tagline: 'Engineering Scalable Digital Solutions',
-    description: 'Offket Tech is an independent IT services firm specializing in software engineering, digital transformation, and cloud infrastructure.',
+    description: 'Offket IT Solutions is an independent IT services firm specializing in software engineering, digital transformation, and cloud infrastructure.',
     address: '6th Floor, Pranava Business Park, Beside Honda Toyota, Kondapur, Hyderabad, Telangana, India',
     email: 'hr@offkettech.com',
     phone: '+91 81068 86572',
