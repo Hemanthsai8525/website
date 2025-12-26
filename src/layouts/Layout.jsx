@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Chatbot from '../components/Chatbot';
 import WhatsAppButton from '../components/WhatsAppButton';
 import CallButton from '../components/CallButton';
+import ScrollToTop from '../components/ScrollToTop';
 import { Outlet, ScrollRestoration } from 'react-router-dom';
 
 const Layout = () => {
@@ -17,6 +18,7 @@ const Layout = () => {
             </main>
             <Footer />
             <ScrollRestoration />
+            <ScrollToTop />
 
             {/* Floating Chat & Call Widgets */}
             <CallButton />

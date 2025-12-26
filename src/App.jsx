@@ -8,6 +8,7 @@ import Technologies from './pages/Technologies';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import BlogPost from './pages/BlogPost';
+import Blog from './pages/Blog';
 import { PrivacyPolicy, TermsConditions } from './pages/Legal';
 
 const router = createBrowserRouter(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path="technologies" element={<Technologies />} />
       <Route path="portfolio" element={<Portfolio />} />
       <Route path="contact" element={<Contact />} />
+      <Route path="blog" element={<Blog />} />
       <Route path="blog/:slug" element={<BlogPost />} />
       <Route path="privacy" element={<PrivacyPolicy />} />
       <Route path="terms" element={<TermsConditions />} />
